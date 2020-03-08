@@ -17,6 +17,7 @@ public class Jugador {
 
 	public void setX(int x) {
 		this.x = x;
+		
 	}
 
 }
