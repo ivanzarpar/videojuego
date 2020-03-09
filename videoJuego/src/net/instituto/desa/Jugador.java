@@ -4,11 +4,11 @@ public class Jugador {
 	int y, x;
 
 	public void derecha(int i) {
-		this.y=this.y+i;
+		this.x=this.x+i;
 	}
 
 	public void izquierda(int i) {
-		this.y=this.y-i;
+		this.x=this.x-i;
 	}
 
 	public void arriba(int i) {
