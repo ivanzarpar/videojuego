@@ -9,16 +9,16 @@ public class Game {
 
 	public void movimiento(String m) {
 		if (m.equalsIgnoreCase(DERECHA)) {
-			j.setX(j.getX() + 1);
+			j.derecha(1);
 		}
 		if (m.equalsIgnoreCase(IZQUIERDA)) {
-			j.setX(j.getX() - 1);
+			j.izquierda(1);
 		}
 		if (m.equalsIgnoreCase(ARRIBA)) {
-			j.setY(j.getY() - 1);
+			j.arriba(1);
 		}
 		if (m.equalsIgnoreCase(ABAJO)) {
-			j.setY(j.getY() + 1);
+			j.abajo(1);
 		}
 	}
 }
